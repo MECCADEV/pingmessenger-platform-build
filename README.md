@@ -1,14 +1,13 @@
 # PingMessenger Platform — Build Artifacts
 
-This public repository distributes compiled PingMessenger Platform artifacts only. It intentionally contains no application source code or source history.
+This public repository distributes compiled PingMessenger Platform artifacts only. It intentionally contains no application source code, database scripts, or source history.
 
 ## Release v0.1.0
 
 Linux `amd64` artifacts built from upstream source commit [`bbfc9aa`](BUILD_COMMITS.md#v010--2026-09-29):
 
 - `bin/pingmessenger-api-linux-amd64` — API service
-- `bin/pingmessenger-db-linux-amd64` — migration and seed runner
-- `runtime/migrations/` and `runtime/seeds/` — runtime database assets
+- `bin/pingmessenger-db-linux-amd64` — database migration and seed runner
 
 Verify the binaries with:
 

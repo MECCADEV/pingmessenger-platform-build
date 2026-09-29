@@ -9,7 +9,7 @@ This manifest records the exact upstream commits included in each published arti
 | Upstream repository | `MECCADEV/pingmessenger-platform` |
 | Source revision | `bbfc9aabaa9f3733a5c0186beb29109fff0975be` |
 | Target | Linux `amd64` |
-| Build form | Static API and database-runner binaries, with migrations and seeds |
+| Build form | Static API and database-runner binaries only |
 
 Included upstream commits, oldest first:
 
