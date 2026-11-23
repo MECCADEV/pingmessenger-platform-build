@@ -1,0 +1,16 @@
+Scope : pingchat-flutter, pingmessenger-platform, open-im-server, helm-charts
+Repo: https://github.com/MECCADEV/pingchat-flutter
+Repo: https://github.com/MECCADEV/pingmessenger-platform
+Repo: https://github.com/MECCADEV/open-im-server
+Repo: https://github.com/MECCADEV/helm-charts
+
+Summary :
+- Added safer blocking behavior across the mobile app and messaging services, including hiding profile photos when a user is blocked and handling incomplete checks safely.
+- Improved production deployment settings for the messaging API, including configuration paths, service ports, and Kafka endpoints.
+- Removed an unusable deployment workflow that could not run without production credentials.
+
+Git commits (up to 4):
+- [Hide profile photos for blocked users](https://github.com/MECCADEV/pingchat-flutter/commit/f7a4e75ff5d781d67de388ec5f96211a71f6761e)
+- [Add blocked-user visibility support](https://github.com/MECCADEV/pingmessenger-platform/commit/1ff0c21f10563b5aedfa39fbb4078808ef794d9e)
+- [Set the production API configuration path](https://github.com/MECCADEV/open-im-server/commit/72bcd1c994672afb0d2622c46f431e4fab2ead4a)
+- [Mount production API configuration overrides](https://github.com/MECCADEV/helm-charts/commit/a5f01b53717a4d4a9de632fca7a73ecd1167b650)
